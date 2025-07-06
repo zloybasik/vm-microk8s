@@ -37,3 +37,4 @@ RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
 COPY ./k8s/nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
+
